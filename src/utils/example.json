@@ -1,0 +1,168 @@
+{
+  "entrepreneur_name": "א.ח. אחזקות בע\"מ",
+  "contractor_name": "בוני העמק",
+  "contractor_number": "510366974",
+  "office_address": {
+    "city": "רמת גן",
+    "zipcode": "785641",
+    "street": "סוקולוב",
+    "house_number": "16",
+    "email": "office@example.com",
+    "phone": "03-6510254",
+    "mobile_phone": "",
+    "fax": "077-8566501"
+  },
+  "managers": [
+    {
+      "last_name": "כהן",
+      "first_name": "אבי",
+      "id_number": "25664821",
+      "address": "",
+      "notes": "מנכ\"ל"
+    },
+    {
+      "last_name": "וייס",
+      "first_name": "יעל",
+      "id_number": "365225846",
+      "address": "הדקל 9, פתח תקוה",
+      "notes": ""
+    }
+  ],
+  "site_name": "פעמוני אורנים",
+  "site_address": {
+    "city": "הוד השרון",
+    "zipcode": "",
+    "street": "נחשונים",
+    "house_number": "7",
+    "email": "",
+    "phone": "03-6510254",
+    "mobile_phone": "055226856",
+    "fax": ""
+  },
+  "project_type": "פינוי בינוי",
+  "capacity": 24,
+  "subcontractor": [
+    {
+      "type": "חשמל",
+      "contractor_name": "הנדסה ירוקה בע\"מ",
+      "address": "כלניות 7 לוד",
+      "representative": "אביב מלחי",
+      "start_date": "2022-07-17T00:00:00.000Z"
+    },
+    {
+      "type": "אינסטלציה",
+      "contractor_name": "עובד רג'ין",
+      "address": "רמלה",
+      "representative": "עובד רג'ין",
+      "start_date": "2022-09-23T00:00:00.000Z"
+    },
+    {
+      "type": "מיזוג אויר",
+      "contractor_name": "אלקטרה תשתיות",
+      "address": "קרית לב, מודיעין",
+      "representative": "נופר סלע",
+      "start_date": "2023-01-06T00:00:00.000Z"
+    }
+  ],
+  "site_workers": [
+    {
+      "section": "2.1",
+      "first_name": "אדוארד",
+      "last_name": "סביאז'ין",
+      "id_number": "346163413",
+      "address": "הדוגית 22 א דירה 31",
+      "phone": "052-2071180",
+      "role": "מנהל עבודה",
+      "start_date": "2022-07-17T00:00:00.000Z",
+      "end_date": "2023-01-23T00:00:00.000Z"
+    },
+    {
+      "section": "2.1",
+      "first_name": "אדנו",
+      "last_name": "פנטהון",
+      "id_number": "310193875",
+      "address": "הרותם 26, דירה 6",
+      "phone": "053-2050623",
+      "role": "מנהל עבודה",
+      "start_date": "2023-01-24T00:00:00.000Z",
+      "end_date": null
+    },
+    {
+      "section": "2.2",
+      "first_name": "אחמש",
+      "last_name": "אלזג'בי",
+      "id_number": "207210048",
+      "address": "הדרור 36, דירה 13",
+      "phone": "052-2224036",
+      "role": "בונה מקצועי לפיגומים",
+      "start_date": "2022-10-03T00:00:00.000Z",
+      "end_date": ""
+    },
+    {
+      "section": "2.2",
+      "first_name": "מחפוד",
+      "last_name": "חסון",
+      "id_number": "213167489",
+      "address": "הנרקיס 7 ירושלים",
+      "phone": "054-2531618",
+      "role": "איטום מבנים",
+      "start_date": "2023-02-15T00:00:00.000Z",
+      "end_date": ""
+    },
+    {
+      "section": "2.2",
+      "first_name": "רעות",
+      "last_name": "גרינברג",
+      "id_number": "24347544",
+      "address": "שמלה הולצברג 16/10",
+      "phone": "054-3546445",
+      "role": "איטום מבנים",
+      "start_date": "2023-02-15T00:00:00.000Z",
+      "end_date": ""
+    },
+    {
+      "section": "2.2",
+      "first_name": "אבתה בלאיי",
+      "last_name": "וולדו",
+      "id_number": "342681681",
+      "address": "גבעולי אביב 8, שדה שבע",
+      "phone": "054-8935427",
+      "role": "זגג",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "section": "2.3",
+      "first_name": "אברהם",
+      "last_name": "ארני",
+      "id_number": "203904602",
+      "address": "הסביון 1/6 שלבי עמל",
+      "phone": "053-7208309",
+      "role": "עגורן צריח",
+      "start_date": "2022-09-21T00:00:00.000Z",
+      "end_date": ""
+    },
+    {
+      "section": "2.4",
+      "first_name": "סמיון",
+      "last_name": "ברובר",
+      "id_number": "306343625",
+      "address": "",
+      "phone": "052-7732284",
+      "role": "מפעיל עגורן שער",
+      "start_date": "2022-09-25T00:00:00.000Z",
+      "end_date": ""
+    },
+    {
+      "section": "2.4",
+      "first_name": "בנימין",
+      "last_name": "עוקשי",
+      "id_number": "316614247",
+      "address": "הקישון, חדרה",
+      "phone": "",
+      "role": "מפעיל כננת הידראולית",
+      "start_date": "2023-04-17T00:00:00.000Z",
+      "end_date": ""
+    }
+  ]
+}
