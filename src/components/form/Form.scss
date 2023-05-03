@@ -1,3 +1,33 @@
+@import "../../styles/Colors.scss";
+
 .form{
-    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border: $primary-color 1px solid;
+    border-radius: 7px;
+
+.filedInput{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    label{
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    input{
+        border: $secondary-color 1px solid;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        width: 230px;
+        outline: none;
+    }
+}
+    
 }
