@@ -1,0 +1,22 @@
+@import "../../styles/Colors.scss";
+.filedInput{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    color: $primary-color;
+    label{
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    input{
+        border: $secondary-color 1px solid;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        width: 230px;
+        outline: none;
+        color: $primary-color;
+        padding: 3px;
+    }
+}
