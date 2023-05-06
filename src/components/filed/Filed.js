@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Filed.scss";
 
 const Filed = ({name, data}) => {
-    const [input,setInput] = useState(data);
+    const [input,setInput] = useState(data || '');
     const handleInput=(e)=>{
         setInput(e.target.value);
     }

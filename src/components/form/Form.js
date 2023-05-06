@@ -5,10 +5,19 @@ import Filed from "../filed/Filed";
 //import ConvertButton from "../convertButton/ConvertButton";
 
 const Form = ({ data }) => {
-  const handleConvert = (e) => {};
+  const upperCaseLabel = (word) => {
+    let string = word.split("_");
+    let label = "";
+    for (let i = 0; i < string.length; i++) {
+      label =
+        label + " " + string[i].charAt(0).toUpperCase() + string[i].slice(1);
+    }
+    return label;
+  };
+  const handleConvert = () => {};
   return (
     <div className="form">
-       <div className="convertBtn">
+      <div className="convertBtn">
         <button onClick={handleConvert} className="convertToPdf">
           convert to pdf
         </button>
@@ -18,7 +27,7 @@ const Form = ({ data }) => {
           const newArr = data[key];
           return (
             <div className="fieldContainer">
-              <h1>{key.split("_").join(' ')}</h1>
+              <h1>{upperCaseLabel(key)}</h1>
               {newArr.map((obj, index) => (
                 <FieldList key={index} data={obj} />
               ))}
@@ -28,7 +37,7 @@ const Form = ({ data }) => {
           let newObj = data[key];
           return (
             <div className="fieldContainer">
-              <h1>{key.split("_").join(' ')}</h1>
+              <h1>{upperCaseLabel(key)}</h1>
               <FieldList data={newObj} />
             </div>
           );
@@ -40,7 +49,6 @@ const Form = ({ data }) => {
           );
         }
       })}
-     
     </div>
   );
 };
