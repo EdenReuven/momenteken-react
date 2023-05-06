@@ -8,7 +8,7 @@ const Filed = ({name, data}) => {
     }
   return (
     <div className="filedInput">
-      <label htmlFor={name}>{name}</label>
+      <label htmlFor={name}>{name.split("_").join(' ')}</label>
       <input type="text" value={input} id={name} onChange={handleInput}/>
     </div>
   );
