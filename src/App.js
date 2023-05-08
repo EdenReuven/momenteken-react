@@ -5,7 +5,7 @@ import Form from "./components/form/Form";
 function App() {
   return (
     <div>
-      <h1>טופס - רישומי זיהוי</h1>
+      <h1>טופס רישום</h1>
       <Form data={data} />
     </div>
   );

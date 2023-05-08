@@ -2,13 +2,7 @@ import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 
 export const upperCaseLabel = (word) => {
-  let string = word.split("_");
-  let label = "";
-  for (let i = 0; i < string.length; i++) {
-    label =
-      label + " " + string[i].charAt(0).toUpperCase() + string[i].slice(1);
-  }
-  return label;
+  return word.replace("_", " ");
 };
 
 export const convertToPDF = (form) => {

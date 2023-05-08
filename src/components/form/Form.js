@@ -1,12 +1,12 @@
 import React from "react";
 import "./Form.scss";
 import FieldList from "../filedList/FieldList";
-import Filed from "../filed/Filed";
+import Filed from "../filedList/filed/Filed";
 import { upperCaseLabel, convertToPDF } from "../../utils/function";
 
 const Form = ({ data }) => {
   const handleConvert = () => {
-    const form = document.getElementById("formDiv");
+    const form = document.getElementById("formContinuer");
     convertToPDF(form);
   };
 
@@ -14,27 +14,27 @@ const Form = ({ data }) => {
     <div className="form">
       <div className="convertBtn">
         <button onClick={handleConvert} className="convertToPdf">
-          convert to pdf
+          convert to PDF
         </button>
       </div>
-      <div id="formDiv">
+      <div id="formContinuer">
         {Object.keys(data).map((key) => {
           if (Array.isArray(data[key])) {
-            const newArr = data[key];
+            const arrayData = data[key];
             return (
               <div className="fieldContainer">
-                <h1>{upperCaseLabel(key)}</h1>
-                {newArr.map((obj, index) => (
+                <div className="title">{upperCaseLabel(key)}</div>
+                {arrayData.map((obj, index) => (
                   <FieldList key={index} data={obj} />
                 ))}
               </div>
             );
           } else if (typeof data[key] === "object" && data[key] !== null) {
-            let newObj = data[key];
+            let dataObj = data[key];
             return (
               <div className="fieldContainer">
-                <h1>{upperCaseLabel(key)}</h1>
-                <FieldList data={newObj} />
+                <div className="title">{upperCaseLabel(key)}</div>
+                <FieldList data={dataObj} />
               </div>
             );
           } else {
