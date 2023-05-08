@@ -2,7 +2,7 @@ import React from "react";
 import "./Form.scss";
 import FieldList from "../filedList/FieldList";
 import Filed from "../filed/Filed";
-import { upperCaseLabel , convertToPDF} from "../../utils/function";
+import { upperCaseLabel, convertToPDF } from "../../utils/function";
 
 const Form = ({ data }) => {
   const handleConvert = () => {
